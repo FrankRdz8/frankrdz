@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 
-export default function Hero() {
+export default function Hero({ t }: { t: any }) {
     return (
         <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
             <motion.div
@@ -14,7 +14,7 @@ export default function Hero() {
             >
                 <div className="space-y-2">
                     <p className="text-stone-500 text-sm tracking-[0.2em] uppercase font-medium">
-                        Full Stack Developer
+                        {t.subtitle}
                     </p>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-stone-900 leading-[0.95]">
                         Frank
@@ -29,29 +29,35 @@ export default function Hero() {
                     transition={{ delay: 0.4, duration: 0.8 }}
                     className="text-lg md:text-xl text-stone-600 max-w-2xl leading-relaxed text-balance"
                 >
-                    Construyo experiencias web premium con Next.js, TypeScript y Tailwind CSS.
-                    Enfocado en performance, diseño minimalista y arquitecturas escalables.
+                    {t.desc}
                 </motion.p>
 
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.6, duration: 0.8 }}
-                    className="flex items-center gap-6 pt-4"
+                    className="flex flex-wrap items-center gap-6 pt-4"
                 >
                     <a
-                        href="#proyectos"
+                        href="#metropolis"
                         className="group inline-flex items-center gap-2 text-sm font-medium tracking-wide uppercase text-stone-900 hover:text-stone-600 transition-colors"
                     >
-                        Ver trabajos
+                        {t.btnFeatured}
                         <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
+                    </a>
+                    <span className="text-stone-300">/</span>
+                    <a
+                        href="#proyectos"
+                        className="text-sm font-medium tracking-wide uppercase text-stone-500 hover:text-stone-900 transition-colors"
+                    >
+                        {t.btnFreelance}
                     </a>
                     <span className="text-stone-300">/</span>
                     <a
                         href="#contacto"
                         className="text-sm font-medium tracking-wide uppercase text-stone-500 hover:text-stone-900 transition-colors"
                     >
-                        Contacto
+                        {t.btnContact}
                     </a>
                 </motion.div>
             </motion.div>
@@ -62,7 +68,7 @@ export default function Hero() {
                 transition={{ delay: 1, duration: 1 }}
                 className="absolute bottom-12 left-6 md:left-12 lg:left-24 text-xs text-stone-400 tracking-widest uppercase"
             >
-                Scroll para explorar
+                {t.scroll}
             </motion.div>
         </section>
     );

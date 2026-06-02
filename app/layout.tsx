@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Portfolio — Full Stack Developer",
   description: "Premium minimal portfolio showcasing full stack web development.",
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
