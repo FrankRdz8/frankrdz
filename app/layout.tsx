@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio — Full Stack Developer",
+  title: "Portfolio — Full Stack Engineer",
   description: "Premium minimal portfolio showcasing full stack web development.",
   manifest: "/site.webmanifest",
 };

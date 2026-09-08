@@ -42,15 +42,8 @@ export default function Hero({ t }: { t: any }) {
                         href="#metropolis"
                         className="group inline-flex items-center gap-2 text-sm font-medium tracking-wide uppercase text-stone-900 hover:text-stone-600 transition-colors"
                     >
-                        {t.btnFeatured}
+                        {t.btnProjects}
                         <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
-                    </a>
-                    <span className="text-stone-300">/</span>
-                    <a
-                        href="#proyectos"
-                        className="text-sm font-medium tracking-wide uppercase text-stone-500 hover:text-stone-900 transition-colors"
-                    >
-                        {t.btnFreelance}
                     </a>
                     <span className="text-stone-300">/</span>
                     <a
