@@ -8,8 +8,8 @@ import { translations } from "@/components/translations";
 import {
   Languages, FileText, Clock, BarChart3,
   Users, ShieldCheck, ArrowLeftRight, DatabaseBackup, TrendingUp, MessageSquareWarning,
-  GraduationCap, Landmark, History, Mail, Gauge, ToggleLeft,
-  Building2, Images, MessageSquare, Accessibility,
+  GraduationCap, Landmark, History, Mail,
+  Building2, Images, MessageSquare, Palette,
 } from "lucide-react";
 
 const metropolisTechBadges = [
@@ -98,8 +98,6 @@ export default function Home() {
           <Landmark key="1" className="w-4 h-4" />,
           <History key="2" className="w-4 h-4" />,
           <Mail key="3" className="w-4 h-4" />,
-          <Gauge key="4" className="w-4 h-4" />,
-          <ToggleLeft key="5" className="w-4 h-4" />,
         ]}
         url="https://soles.org.ar/"
         visitText={t.soles.visit}
@@ -131,7 +129,7 @@ export default function Home() {
         stackTag={t.cruzSacrificio.stackTag}
         techBadges={cruzTechBadges}
         modules={t.cruzSacrificio.modules}
-        moduleIcons={[<Accessibility key="1" className="w-5 h-5" />]}
+        moduleIcons={[<Palette key="1" className="w-5 h-5" />]}
         url="https://cruzdelsacrificio.com.ar/"
         visitText={t.cruzSacrificio.visit}
         size="md"

@@ -76,13 +76,13 @@ export const translations = {
             tag: "Full-Stack",
             subtitle: "Sistema de gestión interna para una ONG: usuarios y voluntarios, asistencia, capacitación con evaluaciones y rendición de cuentas pública, todo en un solo lugar — construido y mantenido de forma continua junto al equipo de la organización.",
             architecture: "Seguridad como Prioridad",
-            archDesc: "CSRF en cada formulario, permisos verificados siempre del lado del servidor (nunca solo ocultando un botón), contraseñas y códigos de verificación jamás guardados en texto plano, y un log de accesos con IP para auditar cualquier intento de ingreso. El sistema pasó una auditoría completa contra el OWASP Top 10.",
+            archDesc: "CSRF en cada formulario, permisos verificados siempre del lado del servidor (nunca solo ocultando un botón), contraseñas y códigos de verificación jamás guardados en texto plano, y un log de accesos con IP para auditar cualquier intento de ingreso. Revisado sistemáticamente contra las 9 categorías aplicables del OWASP Top 10.",
             stackTag: "Tecnología aplicada",
             stats: [
                 { value: "150+", label: "Voluntarios y usuarios gestionados" },
                 { value: "24/7", label: "Disponibilidad, sin depender de que alguien esté conectado" },
-                { value: "0", label: "Contraseñas o códigos guardados en texto plano" },
-                { value: "9/9", label: "Categorías del OWASP Top 10 protegidas" },
+                { value: "100%", label: "De los datos de voluntarios y donantes bajo resguardo" },
+                { value: "Tranquilidad", label: "El equipo no tiene que preocuparse por la seguridad" },
             ],
             modules: [
                 {
@@ -112,14 +112,12 @@ export const translations = {
                 { title: "Transparencia Pública", desc: "balances y documentos institucionales" },
                 { title: "Log de Accesos", desc: "auditoría de intentos de login con IP" },
                 { title: "Mails con Diseño de Marca", desc: "invitaciones, recuperación y avisos" },
-                { title: "Cache de Página Completa", desc: "landing pública optimizada" },
-                { title: "Modo Mantenimiento", desc: "interruptores sin tocar código" },
             ],
             visit: "Visitar Sitio",
         },
         almaq: {
             tag: "Frontend",
-            subtitle: "Construcción completa desde cero de una plataforma web responsive para una empresa constructora líder, con foco extremo en diseño minimalista y rendimiento.",
+            subtitle: "Construcción completa desde cero de una plataforma web responsive para una empresa constructora líder, con galería de obras con álbum de fotos propio para cada proyecto y foco extremo en diseño minimalista y rendimiento.",
             stackTag: "Tecnología aplicada",
             modules: [
                 {
@@ -132,14 +130,14 @@ export const translations = {
                 {
                     number: "02",
                     title: "Galería de Proyectos",
-                    desc: "Carrusel con las obras de la constructora — cada una con imagen, título y estado de avance (en curso o completada), para que sus clientes vean el trabajo real sin tener que pedir referencias.",
+                    desc: "Carrusel con las obras de la constructora — cada una con imagen, título y estado de avance (en curso o completada). Cada obra tiene su propia página con un álbum de fotos, para que sus clientes vean el trabajo real, obra por obra, sin tener que pedir referencias.",
                     image: "/screenshots/almaq-proyectos.png",
                     imageAlt: "Galería de proyectos de Almaq Construcción"
                 },
                 {
                     number: "03",
                     title: "Presupuestos desde la Web",
-                    desc: "Formulario de contacto (\"Cotizá con nosotros\") para que un cliente potencial pida un presupuesto en el momento, sin llamar ni escribir por redes — la consulta llega directo a la empresa.",
+                    desc: "Formulario de contacto para que un cliente potencial pida un presupuesto en el momento, sin llamar ni escribir por redes — la consulta llega directo a la empresa.",
                     image: "/screenshots/almaq-contacto.png",
                     imageAlt: "Formulario de contacto y cotización de Almaq Construcción"
                 }
@@ -148,13 +146,13 @@ export const translations = {
         },
         cruzSacrificio: {
             tag: "Frontend",
-            subtitle: "Auditoría de interfaz y optimización visual del sitio institucional, con rediseño de componentes críticos de navegación y mejoras sustanciales en accesibilidad.",
+            subtitle: "Renovación de la estética visual del sitio institucional, con rediseño de componentes críticos de navegación y mejoras en SEO y rendimiento.",
             stackTag: "Tecnología aplicada",
             modules: [
                 {
                     number: "01",
-                    title: "UI/UX y Accesibilidad",
-                    desc: "Reestructuración de la arquitectura de estilos SASS/SCSS heredada, con mejora en tiempos de carga y jerarquía visual.",
+                    title: "Renovación Visual y Rendimiento",
+                    desc: "Reestructuración de la arquitectura de estilos SASS/SCSS heredada, con mejora en tiempos de carga, jerarquía visual y posicionamiento en buscadores.",
                     image: "/screenshots/cruzsacrificio.png",
                     imageAlt: "Sitio web del Instituto Cruz del Sacrificio"
                 }
@@ -246,13 +244,13 @@ export const translations = {
             tag: "Full-Stack",
             subtitle: "Internal management system for a nonprofit: users and volunteers, attendance, training with quizzes, and public accountability reporting, all in one place — built and continuously maintained alongside the organization's team.",
             architecture: "Security as a Priority",
-            archDesc: "CSRF on every form, permissions always verified server-side (never just hiding a button), passwords and verification codes never stored in plain text, and an access log with IP tracking to audit any login attempt. The system passed a full OWASP Top 10 audit.",
+            archDesc: "CSRF on every form, permissions always verified server-side (never just hiding a button), passwords and verification codes never stored in plain text, and an access log with IP tracking to audit any login attempt. Systematically reviewed against all 9 applicable OWASP Top 10 categories.",
             stackTag: "Technology Used",
             stats: [
                 { value: "150+", label: "Volunteers and users managed" },
                 { value: "24/7", label: "Availability, no one needs to be online for it to work" },
-                { value: "0", label: "Passwords or codes stored in plain text" },
-                { value: "9/9", label: "Applicable OWASP Top 10 categories protected" },
+                { value: "100%", label: "Of volunteer and donor data kept under safeguard" },
+                { value: "Peace of Mind", label: "The team never has to worry about security" },
             ],
             modules: [
                 {
@@ -282,14 +280,12 @@ export const translations = {
                 { title: "Public Transparency", desc: "financial statements & institutional documents" },
                 { title: "Access Log", desc: "login attempt auditing with IP tracking" },
                 { title: "Branded Transactional Emails", desc: "invitations, password resets & alerts" },
-                { title: "Full-Page Caching", desc: "optimized public landing page" },
-                { title: "Maintenance Mode", desc: "toggles without touching code" },
             ],
             visit: "Visit Site",
         },
         almaq: {
             tag: "Frontend",
-            subtitle: "Full ground-up development of a responsive web platform for a leading construction firm, with heavy focus on minimalist design and performance.",
+            subtitle: "Full ground-up development of a responsive web platform for a leading construction firm, with a project gallery featuring its own photo album for every job, and heavy focus on minimalist design and performance.",
             stackTag: "Technology Used",
             modules: [
                 {
@@ -302,14 +298,14 @@ export const translations = {
                 {
                     number: "02",
                     title: "Project Gallery",
-                    desc: "A carousel showcasing the construction firm's completed and ongoing works — each with an image, title, and progress status, so clients can see the real work without asking for references.",
+                    desc: "A carousel showcasing the construction firm's completed and ongoing works — each with an image, title, and progress status. Every project has its own page with a full photo album, so clients can see the real work, project by project, without asking for references.",
                     image: "/screenshots/almaq-proyectos.png",
                     imageAlt: "Almaq Construcción project gallery"
                 },
                 {
                     number: "03",
                     title: "Get a Quote Online",
-                    desc: "A contact form (\"Get a quote from us\") so a potential client can request a budget on the spot, no phone call or DM needed — the inquiry lands straight with the company.",
+                    desc: "A contact form so a potential client can request a budget on the spot, no phone call or DM needed — the inquiry lands straight with the company.",
                     image: "/screenshots/almaq-contacto.png",
                     imageAlt: "Almaq Construcción contact and quote form"
                 }
@@ -318,13 +314,13 @@ export const translations = {
         },
         cruzSacrificio: {
             tag: "Frontend",
-            subtitle: "Interface auditing and visual optimization for the institutional site, with redesigned critical navigation components and substantial accessibility improvements.",
+            subtitle: "A visual aesthetic renovation of the institutional site, with redesigned critical navigation components and improved SEO and performance.",
             stackTag: "Technology Used",
             modules: [
                 {
                     number: "01",
-                    title: "UI/UX & Accessibility",
-                    desc: "Restructuring of the inherited SASS/SCSS styling architecture, with improved loading speeds and visual hierarchy.",
+                    title: "Visual Renovation & Performance",
+                    desc: "Restructuring of the inherited SASS/SCSS styling architecture, with improved loading speeds, visual hierarchy, and search engine ranking.",
                     image: "/screenshots/cruzsacrificio.png",
                     imageAlt: "Instituto Cruz del Sacrificio website"
                 }
