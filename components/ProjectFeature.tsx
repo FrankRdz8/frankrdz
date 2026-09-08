@@ -205,7 +205,7 @@ export default function ProjectFeature({
                                     className="flex items-center gap-3 px-4 py-3 bg-stone-800/40 border border-stone-800 hover:border-stone-700 transition-colors"
                                 >
                                     <span className="text-stone-500 shrink-0">{mentionedIcons?.[index]}</span>
-                                    <span className="text-sm text-stone-200 font-medium whitespace-nowrap">{mod.title}</span>
+                                    <span className="text-sm text-stone-200 font-medium">{mod.title}</span>
                                     <span className="text-xs text-stone-500 whitespace-nowrap hidden sm:inline">— {mod.desc}</span>
                                 </motion.div>
                             ))}
