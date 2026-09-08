@@ -118,7 +118,7 @@ export const translations = {
             visit: "Visitar Sitio",
         },
         almaq: {
-            tag: "Freelance // WIC Design",
+            tag: "Frontend",
             subtitle: "Construcción completa desde cero de una plataforma web responsive para una empresa constructora líder, con foco extremo en diseño minimalista y rendimiento.",
             stackTag: "Tecnología aplicada",
             modules: [
@@ -147,7 +147,7 @@ export const translations = {
             visit: "Visitar Sitio",
         },
         cruzSacrificio: {
-            tag: "Freelance // WIC Design",
+            tag: "Frontend",
             subtitle: "Auditoría de interfaz y optimización visual del sitio institucional, con rediseño de componentes críticos de navegación y mejoras sustanciales en accesibilidad.",
             stackTag: "Tecnología aplicada",
             modules: [
@@ -288,7 +288,7 @@ export const translations = {
             visit: "Visit Site",
         },
         almaq: {
-            tag: "Freelance // WIC Design",
+            tag: "Frontend",
             subtitle: "Full ground-up development of a responsive web platform for a leading construction firm, with heavy focus on minimalist design and performance.",
             stackTag: "Technology Used",
             modules: [
@@ -317,7 +317,7 @@ export const translations = {
             visit: "Visit Site",
         },
         cruzSacrificio: {
-            tag: "Freelance // WIC Design",
+            tag: "Frontend",
             subtitle: "Interface auditing and visual optimization for the institutional site, with redesigned critical navigation components and substantial accessibility improvements.",
             stackTag: "Technology Used",
             modules: [

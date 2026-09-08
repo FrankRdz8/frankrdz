@@ -22,7 +22,7 @@ const solesTechBadges = [
   "PHP 8.2", "MySQL", "PDO", "PHPMailer", "Tailwind CSS", "JavaScript", "PHPUnit", "Apache"
 ];
 
-const almaqTechBadges = ["Next.js 16", "TypeScript", "Tailwind CSS", "Framer Motion"];
+const almaqTechBadges = ["Next.js 16", "TypeScript", "Tailwind CSS", "Framer Motion", "Web3Forms"];
 const cruzTechBadges = ["SCSS / SASS", "JavaScript", "UI/UX", "Performance Audit"];
 
 export default function Home() {
