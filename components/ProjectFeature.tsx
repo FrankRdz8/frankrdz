@@ -147,8 +147,8 @@ export default function ProjectFeature({
                         className="grid grid-cols-2 md:grid-cols-4 gap-px bg-stone-800 border border-stone-800 mb-20"
                     >
                         {stats.map((s) => (
-                            <div key={s.label} className="bg-stone-900 px-5 py-6 md:px-8 space-y-1.5">
-                                <div className="text-3xl md:text-4xl font-bold text-white font-mono tabular-nums">{s.value}</div>
+                            <div key={s.label} className="min-w-0 bg-stone-900 px-5 py-6 md:px-8 space-y-1.5">
+                                <div className="break-words text-3xl md:text-4xl font-bold text-white font-mono tabular-nums">{s.value}</div>
                                 <div className="text-[10px] md:text-[11px] uppercase tracking-widest text-stone-500">{s.label}</div>
                             </div>
                         ))}
