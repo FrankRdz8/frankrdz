@@ -112,12 +112,14 @@ export const translations = {
                 { title: "Transparencia Pública", desc: "balances y documentos institucionales" },
                 { title: "Log de Accesos", desc: "auditoría de intentos de login con IP" },
                 { title: "Mails con Diseño de Marca", desc: "invitaciones, recuperación y avisos" },
+                { title: "Renovación de la Landing Pública", desc: "rediseño, mejoras de SEO y rendimiento, secciones nuevas" },
+                { title: "Mantenimiento Mensual", desc: "nuevas secciones a pedido, todos los meses" },
             ],
             visit: "Visitar Sitio",
         },
         almaq: {
             tag: "Frontend",
-            subtitle: "Construcción completa desde cero de una plataforma web responsive para una empresa constructora líder, con galería de obras con álbum de fotos propio para cada proyecto y foco extremo en diseño minimalista y rendimiento.",
+            subtitle: "Construcción completa desde cero de una plataforma web responsive para una empresa constructora líder, con galería de obras con álbum de fotos propio para cada proyecto, mantenimiento mensual con proyectos nuevos y foco extremo en diseño minimalista y rendimiento.",
             stackTag: "Tecnología aplicada",
             modules: [
                 {
@@ -280,12 +282,14 @@ export const translations = {
                 { title: "Public Transparency", desc: "financial statements & institutional documents" },
                 { title: "Access Log", desc: "login attempt auditing with IP tracking" },
                 { title: "Branded Transactional Emails", desc: "invitations, password resets & alerts" },
+                { title: "Public Landing Redesign", desc: "redesign, SEO and performance improvements, new sections" },
+                { title: "Monthly Maintenance", desc: "new sections on request, every month" },
             ],
             visit: "Visit Site",
         },
         almaq: {
             tag: "Frontend",
-            subtitle: "Full ground-up development of a responsive web platform for a leading construction firm, with a project gallery featuring its own photo album for every job, and heavy focus on minimalist design and performance.",
+            subtitle: "Full ground-up development of a responsive web platform for a leading construction firm, with a project gallery featuring its own photo album for every job, monthly maintenance adding new projects, and heavy focus on minimalist design and performance.",
             stackTag: "Technology Used",
             modules: [
                 {
